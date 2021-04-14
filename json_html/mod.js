@@ -3,7 +3,7 @@ function handleRequest(request) {
 
   if (pathname.startsWith("/html")) {
     const html = `<html>
-      <p><b>Message:</b> Hello from Deno Deploy.</p>
+      <p><b><a href="https://yomo.run/">YoMo</a>:</b> Hello from Deno Deploy.</p>
       </html>`;
 
     return new Response(html, {
